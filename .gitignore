@@ -1,0 +1,35 @@
+# ===== Python 自动生成的 =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== 编辑器和系统文件 =====
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# ===== 日志和临时文件 =====
+*.log
+temp*
+
+# ===== 大数据文件 =====
+# 注意：KITTI 的点云是 .bin 格式，只有 269 KB，【不在排除列表里】
+*.npy
+*.npz
+*.pcd
+*.ply
+*.h5
+*.pt
+*.pth
+dataset/
+datasets/
+
+# ===== 密码密钥 =====
+.env
+*.key
+*.pem
+
+# ===== 程序生成的结果 =====
+output/
+results/
